@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 int queue[100], front = -1, rear = -1, size;
-int queueArray(int choice)
+void queueArray(int choice)
 {
 
     switch (choice)
