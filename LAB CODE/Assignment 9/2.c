@@ -7,7 +7,7 @@
 struct queue
 {
     int data;
-    struct stack *next;
+    struct queue *next;
 };
 
 struct queue *front = NULL;

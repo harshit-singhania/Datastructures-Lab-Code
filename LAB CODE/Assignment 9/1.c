@@ -45,7 +45,7 @@ void queueArray(int choice)
         }
         break;
     
-    // Peek
+    // Pe ek
     case 3: 
         if (front == -1 || front > rear)
         {
